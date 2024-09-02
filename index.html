@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+
+        .navContainer{
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 10vh;
+            background-color: black;
+            color: antiquewhite;
+            font-weight: bold;
+            
+          
+        }
+
+        .leftNav{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            
+            
+        }
+
+        .navBar{
+display: flex;
+list-style: none; 
+justify-content: space-between;
+width: 30vw;
+align-items: center;
+
+
+        }
+        .navBarp {
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 10vw;
+height: 5vh;
+background-color: antiquewhite;
+color: black;
+        }
+
+
+        .secondContainer{
+            display: flex ;
+            flex-direction: column;
+            background-color: black;
+            align-items: center; 
+            text-align: center;
+          justify-content: space-around;
+            color: antiquewhite;
+            height: 40vh;
+        }
+
+        .thirdContainer{
+            /* border: 5px solid antiquewhite; */
+            background-color: black;
+            display: flex;
+            justify-content: center;
+         /* justify-content: space-around; */
+         /* align-items: center; */
+           color: antiquewhite;
+
+        }
+
+        .boxContainer{
+            /* border: 2px solid red; */
+            display: flex;
+              
+             justify-content: space-around;
+              text-align: center; 
+             /* try to do it without this */
+     align-items: center;
+            width: 80rem;
+            height: 80rem;
+            flex-wrap: wrap;
+
+        }
+
+
+        .card{
+            /* border: 1px solid blue; */
+            display: flex; 
+            flex-direction: column;
+            justify-content: space-around; 
+            align-items: center;
+            width: 20rem;
+            height: 20rem;
+
+        }
+
+        .image{
+            width: 20rem;
+            height: 15em;
+        }
+
+
+        .forthContainer{
+            height: 70vh;
+        }
+
+        .fivthContainer{
+            /* border: 1px solid blue; */
+            display: flex;
+            flex-direction: column;
+        }
+
+        .inner4Container{
+            /* border: 1px solid red; */
+
+            display: flex;
+            justify-content:center;
+
+
+        }
+
+        .inner5Container{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            width: 30vw;
+
+        }
+
+        .sixthContainer{
+            display: flex;
+            justify-content: space-around;
+            /* border: 1px purple solid; */
+            /* flex-direction: ; */
+
+        }
+
+
+        
+
+
+   
+
+
+    </style>
+</head>
+<body>
+
+    <nav class="navContainer">
+        <h1>Themebau.</h1>
+        
+<div class="leftNav">
+    <ul class="navBar">
+        <li>home</li>
+        <li>projects</li>
+        <li>pages</li>
+        <li>content</li>
+    </ul>
+
+    <div class="navBarp" >
+        <p >Purchease  .</p>
+    </div>   
+</div>
+    </nav>
+
+    <div class="secondContainer">
+        <p style="font-size: 8em;">Themebau.</p>
+        <p style="width: 40vw;" >Themebau is a stylish universal template for all your projects & creative output. Minimalistic and easy to use, it has everything you need to launch your website.</p>
+    </div>
+
+
+    <div class="thirdContainer">
+
+        <div class="boxContainer">
+
+            <div class="card">
+                <img src="main-home.jpg" alt="" class="image">
+                <p>Main Home</p>
+            </div>
+    
+            <div class="card">
+                <img src="simple-portfolio.jpg" alt="" class="image">
+                <p>simple portfolio</p>
+            </div>
+            <div class="card">
+                <img src="creative-agency.jpg" alt="" class="image">
+                <p>creative agency</p>
+            </div>
+            <div class="card">
+                <img src="main-home.jpg" alt="" class="image">
+                <p>Main Home</p>
+            </div>
+    
+            <div class="card">
+                <img src="simple-portfolio.jpg" alt="" class="image">
+                <p>simple portfolio</p>
+            </div>
+            <div class="card">
+                <img src="creative-agency.jpg" alt="" class="image">
+                <p>creative agency</p>
+            </div>
+
+            <div class="card">
+                <img src="main-home.jpg" alt="" class="image">
+                <p>Main Home</p>
+            </div>
+    
+            <div class="card">
+                <img src="simple-portfolio.jpg" alt="" class="image">
+                <p>simple portfolio</p>
+            </div>
+      
+        </div>
+    </div>
+
+    <div class="forthContainer">
+        <div class="fivthContainer">
+
+           <div class="inner4Container">
+            <img src="demo-1-940-602.jpg" alt="" class="image">
+            <p style="font-size: 2rem;">Present your work in a unique way 💪</p>
+        </div>
+
+        <!-- style="transform: scaleY(1.5);" -->
+     <div class="inner4Container" style="transform: scaleY(1.5); "  >
+            <img src="demo-2-740-560.jpg" alt="" class="image">
+           <div class="inner5Container">
+            <p>Themebau has 1/2/3/4 columns layouts to showcase your work and collections. Choose between the 19 types of layouts to create your portfolio.</p>
+            <butto class="navBarp">View Pages .</button>
+           </div>
+        </div> 
+        </div> <!-- fix this part -->
+
+    </div>
+    <br>
+
+    <div class="sixthContainer">
+        <div > <img src="n.png" alt="" class="image"></div>
+        <div > <img src="n.png" alt="" class="image"></div>
+        <div > <img src="n.png" alt="" class="image"></div>
+    </div>
+
+    <p style="text-align: center;">And more </p>
+
+
+    
+</body>
+</html>
